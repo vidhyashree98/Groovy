@@ -1,0 +1,27 @@
+public class Peacock extends Parrot{
+	public static void main(String[] args) {
+		Peacock p1 = new Peacock();
+		System.out.println("Child class Peacock");
+		p1.eat();
+		p1.fly();
+	}
+}
+public class Bird {
+
+	void eat(){
+		System.out.println("Bird Eats");
+	}
+	void fly(){
+		System.out.println("Bird flies");
+	}
+}
+public class Parrot extends Bird {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Parrot p = new Parrot();
+		System.out.println("Child class ");
+		p.eat();
+		
+		}
+}

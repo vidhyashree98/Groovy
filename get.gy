@@ -1,0 +1,2 @@
+def y = [fName:'abc', lName:'xyz', Gender:'F']
+print y.get("lName")

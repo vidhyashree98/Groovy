@@ -1,0 +1,21 @@
+public class ArithmeticOperator{
+  
+	  public static void main(String[] args)
+	{
+ 
+	    System.out.println("Trying to Do Arithimetic Operations");
+    	 int a=10,b=5,c=7,d=2,sum,sub,mul,div,mod;
+     sum=a+b;
+     System.out.println("addition of 10 and 5 : " +sum );
+     sub=a-b;
+     System.out.println("subtraction of 10 and 5 :" +sub);
+     mul=a*b;
+     System.out.println("multiplication of 10 and 5 :" +mul);
+     div=a/b;
+     System.out.println("division of 10 and 5 :" +div);
+     mod=c%d;
+     System.out.println("Modulu of 7 and 2 :" +mod);
+     
+     System.out.println("End of Arithimetic Operations" );
+    }
+}

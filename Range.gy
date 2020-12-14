@@ -1,0 +1,10 @@
+public class Range {
+	public static void main(String[] args)
+	{
+		def range = 5..100;
+		
+		System.out.println(range);
+		System.out.println(range.get(2));
+		
+	} 
+}
